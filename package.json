@@ -1,0 +1,29 @@
+{
+  "name": "easybuy-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "james-mumo",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "concurrently": "^7.6.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "socket.io": "^4.6.0",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
