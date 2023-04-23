@@ -51,6 +51,11 @@ app.get("/", (req, res) => {
     addReview: "/api/reviews/add",
   })
 })
+
+//nelfify settings
+app.use("/.netlify/functions/api", userRoutes)
+app.use("/.netlify/functions/api", productRoutes)
+
 //
 mongoose.set("strictQuery", false)
 
